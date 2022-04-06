@@ -2,17 +2,15 @@
   "type": "workflow_collections",
   "data": [
     {
+      "@context": "/api/3/contexts/WorkflowCollection",
       "@type": "WorkflowCollection",
       "name": "Sample - Juniper JunOS - 1.0.0",
-      "description": "Provides JunOS REST API Integration covering Juniper MX, PTX, QFX, T and SRX Series platforms",
+      "description": "Sample playbooks for \"Juniper JunOS\" connector. If you are planning to use any of the sample playbooks in your environment, ensure that you clone those playbooks and move them to a different collection, since the sample playbook collection gets deleted during connector upgrade and delete.",
       "visible": true,
-      "image": "/api/3/images/79fc207c-8391-4a84-8bbe-5554e0489ec4",
-      "uuid": "cd6bf4c8-9bcf-4015-b93a-833fcdce4c82",
-      "id": 254,
-      "createUser": "/api/3/appliances/57545210-2adc-472b-a24f-2df6ee8dfe63",
-      "createDate": 1646668417,
-      "modifyUser": "/api/3/people/3451141c-bac6-467c-8d72-85e0fab569ce",
-      "modifyDate": 1646816187,
+      "image": "/api/3/images/6e04333a-cf82-4b7a-9e54-22af8a110106",
+      "id": 1371,
+      "createDate": 1649157466,
+      "modifyDate": 1649157466,
       "recordTags": [],
       "workflows": [
         {
@@ -23,12 +21,11 @@
           "tag": null,
           "description": "Returns the items of a specific address set",
           "isActive": false,
-          "debug": false,
           "singleRecordExecution": false,
           "remoteExecutableFlag": false,
           "parameters": [],
           "synchronous": false,
-          "lastModifyDate": 1646665341,
+          "lastModifyDate": 1649226224,
           "collection": "/api/3/workflow_collections/cd6bf4c8-9bcf-4015-b93a-833fcdce4c82",
           "versions": [],
           "triggerStep": "/api/3/workflow_steps/6d933ef5-72e4-45f6-8bd3-efe5af8771cb",
@@ -56,7 +53,7 @@
               "left": "125",
               "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
               "uuid": "27863167-b2a9-450f-9fcc-487899b22c3a",
-              "id": 15100
+              "id": 35203
             },
             {
               "@type": "WorkflowStep",
@@ -91,7 +88,7 @@
               "left": "125",
               "stepType": "/api/3/workflow_step_types/f414d039-bb0d-4e59-9c39-a8f1e880b18a",
               "uuid": "6d933ef5-72e4-45f6-8bd3-efe5af8771cb",
-              "id": 15101
+              "id": 35204
             }
           ],
           "routes": [
@@ -107,12 +104,15 @@
           ],
           "priority": "/api/3/picklists/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
           "uuid": "28643866-6423-4af7-a3d8-daa387620bb1",
-          "recordTags": [],
-          "id": 2841,
+          "recordTags": [
+            "Juniper",
+            "juniper-junos"
+          ],
+          "id": 12793,
           "createUser": "/api/3/appliances/57545210-2adc-472b-a24f-2df6ee8dfe63",
-          "createDate": 1646668417,
-          "modifyUser": "/api/3/appliances/57545210-2adc-472b-a24f-2df6ee8dfe63",
-          "modifyDate": 1646668417,
+          "createDate": 1649157466,
+          "modifyUser": "/api/3/people/3451141c-bac6-467c-8d72-85e0fab569ce",
+          "modifyDate": 1649226224,
           "owners": [],
           "isPrivate": false
         },
@@ -124,12 +124,11 @@
           "tag": null,
           "description": "Returns the items of a specific Prefix List",
           "isActive": false,
-          "debug": false,
           "singleRecordExecution": false,
           "remoteExecutableFlag": false,
           "parameters": [],
           "synchronous": false,
-          "lastModifyDate": 1645543788,
+          "lastModifyDate": 1649226237,
           "collection": "/api/3/workflow_collections/cd6bf4c8-9bcf-4015-b93a-833fcdce4c82",
           "versions": [],
           "triggerStep": "/api/3/workflow_steps/a3ed1190-45e6-4d74-bd21-475ae18b83df",
@@ -157,7 +156,7 @@
               "left": "125",
               "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
               "uuid": "7129a330-18fa-4c48-96dd-379386da9098",
-              "id": 15102
+              "id": 35205
             },
             {
               "@type": "WorkflowStep",
@@ -192,7 +191,7 @@
               "left": "125",
               "stepType": "/api/3/workflow_step_types/f414d039-bb0d-4e59-9c39-a8f1e880b18a",
               "uuid": "a3ed1190-45e6-4d74-bd21-475ae18b83df",
-              "id": 15103
+              "id": 35206
             }
           ],
           "routes": [
@@ -208,12 +207,15 @@
           ],
           "priority": "/api/3/picklists/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
           "uuid": "4b0fd5b1-7047-4a1a-a92f-9ba161349356",
-          "recordTags": [],
-          "id": 2842,
+          "recordTags": [
+            "Juniper",
+            "juniper-junos"
+          ],
+          "id": 12794,
           "createUser": "/api/3/appliances/57545210-2adc-472b-a24f-2df6ee8dfe63",
-          "createDate": 1646668417,
-          "modifyUser": "/api/3/appliances/57545210-2adc-472b-a24f-2df6ee8dfe63",
-          "modifyDate": 1646668417,
+          "createDate": 1649157466,
+          "modifyUser": "/api/3/people/3451141c-bac6-467c-8d72-85e0fab569ce",
+          "modifyDate": 1649226237,
           "owners": [],
           "isPrivate": false
         },
@@ -225,12 +227,11 @@
           "tag": null,
           "description": "Block IPv4/IPv6 by adding it to a Prefix List",
           "isActive": false,
-          "debug": false,
           "singleRecordExecution": false,
           "remoteExecutableFlag": false,
           "parameters": [],
           "synchronous": false,
-          "lastModifyDate": 1646816235,
+          "lastModifyDate": 1649226167,
           "collection": "/api/3/workflow_collections/cd6bf4c8-9bcf-4015-b93a-833fcdce4c82",
           "versions": [],
           "triggerStep": "/api/3/workflow_steps/0bb0c35b-2744-4974-8c64-ac09985ad731",
@@ -258,7 +259,7 @@
               "left": "125",
               "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
               "uuid": "09c14853-996f-4d5d-9844-136206a0033c",
-              "id": 15104
+              "id": 35207
             },
             {
               "@type": "WorkflowStep",
@@ -293,7 +294,7 @@
               "left": "125",
               "stepType": "/api/3/workflow_step_types/f414d039-bb0d-4e59-9c39-a8f1e880b18a",
               "uuid": "0bb0c35b-2744-4974-8c64-ac09985ad731",
-              "id": 15105
+              "id": 35208
             }
           ],
           "routes": [
@@ -309,12 +310,15 @@
           ],
           "priority": "/api/3/picklists/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
           "uuid": "561c0004-bb0c-40aa-b4a1-c914f7c68fc2",
-          "recordTags": [],
-          "id": 2843,
+          "recordTags": [
+            "Juniper",
+            "juniper-junos"
+          ],
+          "id": 12795,
           "createUser": "/api/3/appliances/57545210-2adc-472b-a24f-2df6ee8dfe63",
-          "createDate": 1646668417,
+          "createDate": 1649157466,
           "modifyUser": "/api/3/people/3451141c-bac6-467c-8d72-85e0fab569ce",
-          "modifyDate": 1646816236,
+          "modifyDate": 1649226167,
           "owners": [],
           "isPrivate": false
         },
@@ -326,12 +330,11 @@
           "tag": null,
           "description": "Unblock IP/FQDN/Wildcard by deleting it from an Address Set",
           "isActive": false,
-          "debug": false,
           "singleRecordExecution": false,
           "remoteExecutableFlag": false,
           "parameters": [],
           "synchronous": false,
-          "lastModifyDate": 1646665159,
+          "lastModifyDate": 1649226210,
           "collection": "/api/3/workflow_collections/cd6bf4c8-9bcf-4015-b93a-833fcdce4c82",
           "versions": [],
           "triggerStep": "/api/3/workflow_steps/0cafb778-7e9b-4e6d-a38b-e584d8fb3405",
@@ -369,7 +372,7 @@
               "left": "125",
               "stepType": "/api/3/workflow_step_types/f414d039-bb0d-4e59-9c39-a8f1e880b18a",
               "uuid": "0cafb778-7e9b-4e6d-a38b-e584d8fb3405",
-              "id": 15106
+              "id": 35209
             },
             {
               "@type": "WorkflowStep",
@@ -395,7 +398,7 @@
               "left": "125",
               "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
               "uuid": "29de3580-3e06-4e9c-9056-b554c4b469aa",
-              "id": 15107
+              "id": 35210
             }
           ],
           "routes": [
@@ -411,12 +414,15 @@
           ],
           "priority": "/api/3/picklists/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
           "uuid": "73b9ed6c-f1cb-479f-8912-c697165e3503",
-          "recordTags": [],
-          "id": 2844,
+          "recordTags": [
+            "Juniper",
+            "juniper-junos"
+          ],
+          "id": 12796,
           "createUser": "/api/3/appliances/57545210-2adc-472b-a24f-2df6ee8dfe63",
-          "createDate": 1646668417,
-          "modifyUser": "/api/3/appliances/57545210-2adc-472b-a24f-2df6ee8dfe63",
-          "modifyDate": 1646668417,
+          "createDate": 1649157466,
+          "modifyUser": "/api/3/people/3451141c-bac6-467c-8d72-85e0fab569ce",
+          "modifyDate": 1649226211,
           "owners": [],
           "isPrivate": false
         },
@@ -428,12 +434,11 @@
           "tag": null,
           "description": "Update configuration providing XML config",
           "isActive": false,
-          "debug": false,
           "singleRecordExecution": false,
           "remoteExecutableFlag": false,
           "parameters": [],
           "synchronous": false,
-          "lastModifyDate": 1646667997,
+          "lastModifyDate": 1649226252,
           "collection": "/api/3/workflow_collections/cd6bf4c8-9bcf-4015-b93a-833fcdce4c82",
           "versions": [],
           "triggerStep": "/api/3/workflow_steps/63a31c80-9b25-47a0-90d3-94a8161dd383",
@@ -471,7 +476,7 @@
               "left": "125",
               "stepType": "/api/3/workflow_step_types/f414d039-bb0d-4e59-9c39-a8f1e880b18a",
               "uuid": "63a31c80-9b25-47a0-90d3-94a8161dd383",
-              "id": 15108
+              "id": 35211
             },
             {
               "@type": "WorkflowStep",
@@ -495,7 +500,7 @@
               "left": "125",
               "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
               "uuid": "af7c9037-5fc4-452f-8d03-20df3b64d1ee",
-              "id": 15109
+              "id": 35212
             }
           ],
           "routes": [
@@ -511,12 +516,15 @@
           ],
           "priority": "/api/3/picklists/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
           "uuid": "bde0f170-903b-47d3-a8c9-f05766f7b237",
-          "recordTags": [],
-          "id": 2845,
+          "recordTags": [
+            "Juniper",
+            "juniper-junos"
+          ],
+          "id": 12797,
           "createUser": "/api/3/appliances/57545210-2adc-472b-a24f-2df6ee8dfe63",
-          "createDate": 1646668417,
-          "modifyUser": "/api/3/appliances/57545210-2adc-472b-a24f-2df6ee8dfe63",
-          "modifyDate": 1646668417,
+          "createDate": 1649157466,
+          "modifyUser": "/api/3/people/3451141c-bac6-467c-8d72-85e0fab569ce",
+          "modifyDate": 1649226252,
           "owners": [],
           "isPrivate": false
         },
@@ -528,12 +536,11 @@
           "tag": null,
           "description": "Unblock IPv4/IPv6 by deleting it from a Prefix List",
           "isActive": false,
-          "debug": false,
           "singleRecordExecution": false,
           "remoteExecutableFlag": false,
           "parameters": [],
           "synchronous": false,
-          "lastModifyDate": 1645543615,
+          "lastModifyDate": 1649226196,
           "collection": "/api/3/workflow_collections/cd6bf4c8-9bcf-4015-b93a-833fcdce4c82",
           "versions": [],
           "triggerStep": "/api/3/workflow_steps/d0389120-1796-4446-a6b2-ad75956b37f8",
@@ -561,7 +568,7 @@
               "left": "125",
               "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
               "uuid": "5515e5c4-234e-4d91-ae5a-b722b22d156a",
-              "id": 15110
+              "id": 35213
             },
             {
               "@type": "WorkflowStep",
@@ -596,7 +603,7 @@
               "left": "125",
               "stepType": "/api/3/workflow_step_types/f414d039-bb0d-4e59-9c39-a8f1e880b18a",
               "uuid": "d0389120-1796-4446-a6b2-ad75956b37f8",
-              "id": 15111
+              "id": 35214
             }
           ],
           "routes": [
@@ -612,12 +619,15 @@
           ],
           "priority": "/api/3/picklists/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
           "uuid": "c4ffe2af-4afd-47b4-a592-fd29b5fde547",
-          "recordTags": [],
-          "id": 2846,
+          "recordTags": [
+            "Juniper",
+            "juniper-junos"
+          ],
+          "id": 12798,
           "createUser": "/api/3/appliances/57545210-2adc-472b-a24f-2df6ee8dfe63",
-          "createDate": 1646668417,
-          "modifyUser": "/api/3/appliances/57545210-2adc-472b-a24f-2df6ee8dfe63",
-          "modifyDate": 1646668417,
+          "createDate": 1649157466,
+          "modifyUser": "/api/3/people/3451141c-bac6-467c-8d72-85e0fab569ce",
+          "modifyDate": 1649226197,
           "owners": [],
           "isPrivate": false
         },
@@ -629,12 +639,11 @@
           "tag": null,
           "description": "Block IP/FQDN/Wildcard by adding it to an Address Set",
           "isActive": false,
-          "debug": false,
           "singleRecordExecution": false,
           "remoteExecutableFlag": false,
           "parameters": [],
           "synchronous": false,
-          "lastModifyDate": 1646668133,
+          "lastModifyDate": 1649226184,
           "collection": "/api/3/workflow_collections/cd6bf4c8-9bcf-4015-b93a-833fcdce4c82",
           "versions": [],
           "triggerStep": "/api/3/workflow_steps/f192c80c-24ac-4498-8645-7c3795eb4165",
@@ -663,7 +672,7 @@
               "left": "125",
               "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
               "uuid": "65c66d36-bc4d-45dc-b082-cef24ff3ca86",
-              "id": 15112
+              "id": 35215
             },
             {
               "@type": "WorkflowStep",
@@ -698,7 +707,7 @@
               "left": "125",
               "stepType": "/api/3/workflow_step_types/f414d039-bb0d-4e59-9c39-a8f1e880b18a",
               "uuid": "f192c80c-24ac-4498-8645-7c3795eb4165",
-              "id": 15113
+              "id": 35216
             }
           ],
           "routes": [
@@ -714,12 +723,15 @@
           ],
           "priority": "/api/3/picklists/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
           "uuid": "e82a6ecd-4599-4e79-89a9-3a30fafcf034",
-          "recordTags": [],
-          "id": 2847,
+          "recordTags": [
+            "Juniper",
+            "juniper-junos"
+          ],
+          "id": 12799,
           "createUser": "/api/3/appliances/57545210-2adc-472b-a24f-2df6ee8dfe63",
-          "createDate": 1646668417,
-          "modifyUser": "/api/3/appliances/57545210-2adc-472b-a24f-2df6ee8dfe63",
-          "modifyDate": 1646668417,
+          "createDate": 1649157466,
+          "modifyUser": "/api/3/people/3451141c-bac6-467c-8d72-85e0fab569ce",
+          "modifyDate": 1649226184,
           "owners": [],
           "isPrivate": false
         },
@@ -731,12 +743,11 @@
           "tag": null,
           "description": "Get Data via operation command",
           "isActive": false,
-          "debug": false,
           "singleRecordExecution": false,
           "remoteExecutableFlag": false,
           "parameters": [],
           "synchronous": false,
-          "lastModifyDate": 1646816116,
+          "lastModifyDate": 1649226269,
           "collection": "/api/3/workflow_collections/cd6bf4c8-9bcf-4015-b93a-833fcdce4c82",
           "versions": [],
           "triggerStep": "/api/3/workflow_steps/b9483477-6a70-4ff7-8870-d9842a08b966",
@@ -765,7 +776,7 @@
               "left": "125",
               "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
               "uuid": "377ae286-8a14-474e-ad5a-9d9ecae066b5",
-              "id": 15114
+              "id": 35217
             },
             {
               "@type": "WorkflowStep",
@@ -800,7 +811,7 @@
               "left": "125",
               "stepType": "/api/3/workflow_step_types/f414d039-bb0d-4e59-9c39-a8f1e880b18a",
               "uuid": "b9483477-6a70-4ff7-8870-d9842a08b966",
-              "id": 15115
+              "id": 35218
             }
           ],
           "routes": [
@@ -816,17 +827,23 @@
           ],
           "priority": "/api/3/picklists/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
           "uuid": "ea118772-0cf1-4f4b-92c8-4610ac574a8d",
-          "recordTags": [],
-          "id": 2848,
+          "recordTags": [
+            "Juniper",
+            "juniper-junos"
+          ],
+          "id": 12800,
           "createUser": "/api/3/appliances/57545210-2adc-472b-a24f-2df6ee8dfe63",
-          "createDate": 1646668417,
+          "createDate": 1649157466,
           "modifyUser": "/api/3/people/3451141c-bac6-467c-8d72-85e0fab569ce",
-          "modifyDate": 1646816117,
+          "modifyDate": 1649226269,
           "owners": [],
           "isPrivate": false
         }
       ]
     }
   ],
-  "exported_tags": []
+  "exported_tags": [
+    "Juniper",
+    "juniper-junos"
+  ]
 }
