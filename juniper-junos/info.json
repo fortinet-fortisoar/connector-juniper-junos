@@ -3,7 +3,7 @@
     "version":"1.0.0",
     "label":"Juniper JunOS",
     "description":"Provides JunOS REST API Integration covering Juniper MX, PTX, QFX, T and SRX Series platforms",
-    "publisher":"Fortinet-CSE",
+    "publisher":"Fortinet CSE",
     "icon_small_name":"junos_small.jpg",
     "icon_large_name":"junos_large.jpg",
     "category":"Firewall and Network Protection",
